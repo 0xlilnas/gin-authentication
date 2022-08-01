@@ -1,4 +1,4 @@
-## Gin Authentication with ORY KRATOS
+## Gin Authentication with Ory Kratos
 
 ### About The Project
 
@@ -12,9 +12,10 @@ This project are using go,gin,ory kratos(authentication),ory oathkeeper(proxy),o
 
 #### How to setup this project locally:
 
-Please ensure you have go installed in your machine by typing this in your terminal
+Please ensure you have go and docker installed in your machine by typing this in your terminal
 ```
 go version
+docker version
 ```
 #### Installation:
 
@@ -22,7 +23,7 @@ go version
 ```
 git clone https://github.com/0xlilnas/gin-authentication.git
 ```
-1. Run docker-compose command
+2. Run docker-compose command
 ```
 docker-compose up
 ```
