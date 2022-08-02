@@ -85,7 +85,7 @@ services:
       - intranet
 
   keto-migrate:
-    image: oryd/keto:v0.8.0-alpha.2
+    image: oryd/keto:v0.9.0-alpha.0
     volumes:
       - type: bind
         source: ./keto
@@ -101,7 +101,7 @@ services:
       - intranet
 
   keto-perms:
-    image: oryd/keto:v0.8.0-alpha.2
+    image: oryd/keto:v0.9.0-alpha.0
     volumes:
       - type: bind
         source: ./keto
@@ -117,7 +117,7 @@ services:
       - intranet
 
   keto:
-    image: oryd/keto:v0.8.0-alpha.2
+    image: oryd/keto:v0.9.0-alpha.0
     volumes:
       - type: bind
         source: ./keto
